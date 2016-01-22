@@ -1,0 +1,93 @@
+<HTML>
+<HEAD>
+<LINK REL="STYLESHEET"  HREF="../../style.css" TYPE="text/css">
+<LINK REL="SHORTCUT ICON" HREF="../../images/favicon.ico">
+<TITLE>The Mean Value Theorem For Derivatives</TITLE>
+</HEAD>
+
+<BODY bgcolor=white vlink="blue">
+
+<!- ---------------------------- PAGE HEADER ------------------------------- ->
+<TABLE cellpadding=0 cellspacing=0 border=0 width=700>
+<TR>
+<TD colspan=2>
+<FONT size=+2><B>David Little</B></FONT>
+</TD>
+</TR>
+<TR><TD valign=top>
+<A HREF="http://www.math.psu.edu">Mathematics Department</A><BR> 
+<A HREF="http://www.psu.edu">Penn State University</A><BR>
+Eberly College of Science<BR>
+University Park, PA  16802<BR>
+</TD>
+<TD align=right valign=top>
+Office: <A HREF="http://www.our.psu.edu/soc_maps/mcalstr.html">403 McAllister</A><BR>
+Phone: (814) 865-3329<BR>
+Fax: (814) 865-3735<BR>
+e-mail:<A HREF="mailto:dlittle@psu.edu">dlittle@psu.edu</A><BR>
+</TD>
+</TR>
+<!- ------------------------------------------------------------------------ ->
+<TR>
+<TD valign=top align=left colspan=2>
+<BR>
+<TABLE width=100% border=0 cellspacing=0 cellpadding=0>
+<TR align=center bgcolor=#291C5E>
+<TD><A HREF="../../index.html"><FONT color=white><B>Home</B></FONT></A></TD>
+<TD><A HREF="../../courses.html"><FONT color=white><B>Courses</B></FONT></A></TD>
+<TD><A HREF="../../math.html"><FONT color=white><B>Math Links</B></FONT></A></TD>
+<TD><A HREF="../../resources.html"><FONT color=white><B>Resources</B></FONT></A></TD>
+<TD><A HREF="../../applets.html"><FONT color=white><B>Java Applets</B></FONT></A></TD>
+</TR>
+</TABLE>
+<BR>
+</TD>
+</TR>
+<TR>
+<TD colspan=2>
+<!- ------------------------------------------------------------------------ ->
+
+<B><FONT size=+1>The Mean Value Theorem For Derivatives</FONT></B>
+
+<P>
+The Mean Value Theorem states that if <I>f(x)</I> is continuous on [<I>a,b</I>] and differentiable on (<I>a,b</I>) then there exists a number <I>c</I> between <I>a</I> and <I>b</I> such that
+<CENTER>
+<IMG SRC="images/meanvalue.gif">
+</CENTER>
+<P>
+The following applet can be used to approximate the values of <I>c</I> that satisfy the conclusion of the Mean Value Theorem.  Simply enter the function <I>f(x)</I> and the values <I>a</I>, <I>b</I> and <I>c</I>. The applet automatically draws the secant line through the points <I>(a,f(a))</I> and <I>(b,f(b))</I>, the line through the point <I>(c,f(c))</I> parallel to the secant line, and the line tangent to <I>f(x)</I> at <I>x=c</I>.  
+<P>
+Adjust the value of <I>c</I> by dragging the red dot along the curve.  When you think you've found a value of <I>c</I> that satisfies the conclusion of the mean value theorem, press the "Locate" button in the lower left corner of the applet.  The applet will adjust your value of <I>c</I> to a more accurate value that satisfies the mean value theorem.  Note that the tangent line is now parallel to the secant line.  
+<P>
+The values <I>a</I>, <I>b</I> and <I>c</I> can be changed by simply typing a new value, such as "1.2345", "pi/2", "sqrt(5)+cos(3)", etc.  You may also change these values by using the up/down arrow keys or dragging the corresponding point left or right.  To move the center of the graph, simply drag any point to a new location.  To label the <I>x</I>-axis in radians (i.e. multiples of pi), click on the graph and press "control-r".  To switch back, simply press "control-r" again. 
+<P>
+Here is a <A HREF="functions.html">list of functions</A> that can be used with this applet.
+<P>
+<CENTER>
+<TABLE border=1>
+<TR><TD>
+<APPLET CODEBASE="class" ARCHIVE="jep-2.3.0.jar,djep-1.0.0.jar" CODE="MeanValue.class"  width=400 height=100>
+<PARAM NAME="f" VALUE="sin(x)+cos(2x)">
+<PARAM NAME="a" VALUE="-9/4">
+<PARAM NAME="b" VALUE="5/2">
+<PARAM NAME="c" VALUE="0.15">
+<PARAM NAME="originX" VALUE="0.0">
+<PARAM NAME="originY" VALUE="0.0">
+<PARAM NAME="zoom" VALUE="1">
+<PARAM NAME="type" VALUE="Show Both">
+</APPLET>
+</TD></TR>
+</TABLE>
+</CENTER>
+
+<HR>
+&copy; 2006 David P. Little<BR>
+<A HREF="calculus.zip">Download</A> this applet for off-line viewing (includes source code).  The above applet uses the Java Math Expression Parser (JEP) developed by <A HREF="http://www.singularsys.com">Singular Systems</A>
+
+<HR>
+</TD>
+</TR>
+</TABLE>
+
+</BODY>
+</HTML>
